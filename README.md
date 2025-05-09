@@ -6,7 +6,7 @@
 - Lewis Clements lmc2300
 - Michael John Flynn mf3657
 
-- # Introduction
+## Introduction
 This repository contains two components for capturing, transcribing, and summarizing audio conversations:
 
 1. **ESP32 Volume & Speech Detection** (`ESP32-volume_speech.ino`) – Arduino sketch that monitors audio levels via I2S microphone, uses an Edge Impulse model to distinguish speech from background noise, and streams raw audio to a Raspberry Pi over UART.
